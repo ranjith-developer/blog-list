@@ -1,0 +1,48 @@
+/* Write your CSS code here */
+.list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 95%;
+  font-family: 'Roboto';
+  margin-bottom: 36px;
+}
+
+.name-date-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.title {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin: 0px;
+}
+
+.date {
+  color: #9aa5b1;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 0px;
+  line-height: 18px;
+}
+
+.description {
+  color: #9aa5b1;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 0px;
+  line-height: 18px;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  border: 2px solid #9aa5b1;
+}
